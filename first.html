@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU BUZZ</title>
+    <style>
+        .head1 {
+            margin: 10px;
+        }
+
+        .container {
+            height: 75vh;
+            background-color: #282A35;
+            /* border:5px solid #ccc; */
+        }
+
+        .gs {
+            font-size: 100px;
+            color: white;
+            text-align: center;
+            font-weight: 70;
+        }
+
+        .gs1 {
+            background-color: green;
+            color: white;
+            font-size: 28px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+        }
+
+        .gs2 {
+            background-color: yellow;
+            color: black;
+            font-size: 28px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+
+        }
+
+        .gs3 {
+            background-color: white;
+            color: black;
+            font-size: 28px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+
+        }
+
+        .ts {
+            font-size: 25px;
+            color: white;
+        }
+
+        .ts2 {
+            background-color: white;
+        }
+
+        hover:hover {
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container2 {
+            background-color: #D9EEE1;
+            height: 75vh;
+        }
+
+        .tu {
+            font-size: 100px;
+            color: black;
+            text-align: center;
+
+            font-weight: 70;
+        }
+
+        .tu1 {
+            font-size: 25px;
+            color: black;
+            font-weight: 95;
+        }
+
+        .tu2 {
+            background-color: green;
+            color: white;
+            font-size: 28px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+
+        }
+
+        .tu3 {
+            background-color: black;
+            color: white;
+            font-size: 28px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+
+        }
+
+        .container3 {
+            background-color: #FFF4A3;
+            height: 75vh;
+        }
+
+        .tu5 {
+            background-color: black;
+            color: white;
+            font-size: 28px;
+            width: 300px;
+            border-radius: 45px;
+            padding: 10px;
+        }
+
+        .container4 {
+            background-color: #282A35;
+            height: 75vh;
+
+        }
+
+        .container5 {
+            background-color: white;
+            height: 75vh;
+        }
+
+        .container6 {
+            background-color: #282A35;
+            height: 230vh;
+
+
+        }
+
+        .a4 {
+            background-color: #282A35;
+            color: white;
+            font-size: 24px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .a1 {
+
+            background-color: pink;
+            border-radius: 30px;
+        }
+
+        .a2 {
+
+            font-size: 50px;
+            color: black;
+
+        }
+
+        .a3 {
+            font-size: 35px;
+            color: black;
+        }
+
+        .b1 {
+            background-color: #FFF4A3;
+            border-radius: 30px;
+        }
+
+        .c1 {
+            background-color: #F3ECEA;
+            border-radius: 30px;
+        }
+
+        .d1 {
+            background-color: #D9EEE1;
+            border-radius: 30px;
+        }
+
+        .e1 {
+            background-color: #96D4D4;
+            border-radius: 30px;
+        }
+
+        .f1 {
+            background-color: #E7E9EB;
+            border-radius: 30px;
+        }
+
+        .g1 {
+            background-color: #F3ECEA;
+            border-radius: 30px;
+        }
+
+        .h1 {
+            background-color: #D9EEE1;
+            border-radius: 30px;
+        }
+
+        .container7 {
+
+            background-color: #96D4D4;
+            border-radius: 30px;
+            height: 85vh;
+        }
+
+        .a5 {
+
+            font-size: 100px;
+            color: black;
+
+        }
+
+        .a6 {
+            background-color: green;
+            color: white;
+            font-size: 28px;
+            width: 300px;
+            border-radius: 45px;
+            padding: 10px;
+        }
+
+        .container8 {
+            background-color: #282A35;
+            height: 35vh;
+        }
+
+        .ab4 {
+            display: flex;
+
+        }
+
+        .ab3 {
+            background-color: white;
+            width: 90px;
+            font-size: 25px;
+
+            color: black;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .a7 {
+            background-color: green;
+            color: white;
+            width: 1500px;
+            height: 50px;
+            border-radius: 10px;
+            /* text-align:center; */
+            font-size: 35px;
+        }
+
+        header {
+            background-color: black;
+            height: 21vh;
+            border: 2px solid yellow;
+        }
+
+        .ab {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .ab2 {
+            padding: 10px;
+            font-size: 22px;
+            color: black;
+            background-color: white;
+            width: 150px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .a10 {
+
+            background-color: #282A35;
+            color: white;
+            font-size: 24px;
+            width: 200px;
+            border-radius: 45px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .m1 {
+            color: black;
+            background-color: yellow;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+
+<body bgcolor="aqua">
+    <header>
+        <nav class="head1">
+            <ul type="none" class="ab">
+
+                <li><img src="edu1.png" width="225px" height="125px" style="border:2px solid red;"></li>
+               <a href="first.html"> <li class="ab2"><b>HOME</b></li></a>
+               <a href="contact.html"><li class="ab2"><b>CONTACT US</b></li></a>
+               <a href="review.html"><li class="ab2"><b>REVIEWS</b></li></a>
+                <a href="login.html"><li class="ab2"><b>LOG IN</b></li></a>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <marquee class="m1" direction="right" scrollamount="25"><b>5 minute mein programming sikhe</b></marquee>
+    </div>
+    <div class="container">
+        <table cellpading="30px" align="center">
+            <tr>
+                <td class="gs">HTML</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" class="hover">
+                    <p class="ts">The language for building web pages</p>
+                    <a href="https://www.w3schools.com/html/default.asp">
+                        <p class="gs1">Learn Html</p>
+                    </a>
+
+                    <a href="https://www.w3schools.com/videos/index.php">
+                        <p class="gs2">Video tutorial</p>
+                    </a>
+
+                    <a href="https://www.w3schools.com/tags/default.asp">
+                        <p class="gs3">Html Reference</p>
+                    </a>
+
+                </td>
+                <td align="right" width="600px">
+                    <img class="ts2" src="1.png" width="425px">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container2">
+        <table cellpading="10px" align="center">
+            <tr>
+                <td class="tu">CSS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" class="hover">
+                    <p class="tu1">The language for styling web pages</p>
+                    <a href="https://www.w3schools.com/css/default.asp">
+                        <p class="tu2">Learn CSS</p>
+                    </a>
+
+                    <!-- <a href="https://www.w3schools.com/videos/index.php"><p class="gs2">Video tutorial</p></a> -->
+
+                    <a href="https://www.w3schools.com/cssref/default.asp">
+                        <p class="tu3">CSS Reference</p>
+                    </a>
+
+                </td>
+                <td align="right" width="600px">
+                    <img class="tu4" src="3.png" width="325px">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container3">
+        <table cellpading="10px" align="center">
+            <tr>
+                <td class="tu">JAVA SCRIPT</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" class="hover">
+                    <p class="tu1">The language for styling web pages</p>
+                    <a href="https://www.w3schools.com/js/default.asp">
+                        <p class="tu2">Learn JavaScript</p>
+                    </a>
+
+                    <!-- <a href="https://www.w3schools.com/videos/index.php"><p class="gs2">Video tutorial</p></a> -->
+
+                    <a href="https://www.w3schools.com/jsref/default.asp">
+                        <p class="tu5">JavaScript reference</p>
+                    </a>
+
+                </td>
+                <td align="right" width="600px">
+                    <img class="tu4" src="4.png" width="525px">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container4">
+        <table cellpading="10px" align="center">
+            <tr>
+                <td class="gs">PYTHON</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" class="hover">
+                    <p class="ts">A popular programming language</p>
+                    <a href="https://www.w3schools.com/python/default.asp">
+                        <p class="tu2">Learn Python</p>
+                    </a>
+
+                    <!-- <a href="https://www.w3schools.com/videos/index.php"><p class="gs2">Video tutorial</p></a> -->
+
+                    <a href="https://www.w3schools.com/python/python_reference.asp">
+                        <p class="gs3">Python reference</p>
+                    </a>
+
+                </td>
+                <td align="right" width="600px">
+                    <img class="tu4" src="5.png" width="375px">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container5">
+        <table cellpading="10px" align="center">
+            <tr>
+                <td class="tu">SQL</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" class="hover">
+                    <p class="tu1">A language for accessing databases</p>
+                    <a href="https://www.w3schools.com/sql/default.asp">
+                        <p class="tu2">Learn SQL</p>
+                    </a>
+
+                    <!-- <a href="https://www.w3schools.com/videos/index.php"><p class="gs2">Video tutorial</p></a> -->
+
+                    <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">
+                        <p class="tu5">SQL reference</p>
+                    </a>
+
+                </td>
+                <td align="right" width="600px">
+                    <img class="tu4" src="1.jfif" height="325px" width="425px" style="border:2px solid #ccc;">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container6" align="center">
+        <table align="center" cellspacing="100px" >
+            <tr>
+                <td class="a1" align="center">
+                    <h1 class="a2" align="center">PHP</h1>
+                    <p class="a3">A web server programming language</p>
+                    <a href="https://www.w3schools.com/php/default.asp">
+                        <p class="a4">learn PHP</p>
+                    </a>
+                </td>
+                <td class="b1" align="center">
+                    <h1 class="a2" align="center">JQuery</h1>
+                    <p class="a3">A JS library for developing web pages/p>
+                        <a href="https://www.w3schools.com/jquery/default.asp">
+                            <p class="a4">learn JQery</p>
+                        </a>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="c1" align="center">
+                    <h1 class="a2" align="center">JAVA</h1>
+                    <p class="a3">A programming language</p>
+                    <a href="https://www.w3schools.com/java/default.asp">
+                        <p class="a4">learn Java</p>
+                    </a>
+                </td>
+                <td class="d1" align="center">
+                    <h1 class="a2" align="center">C++</h1>
+                    <p class="a3">A programming language</p>
+                    <a href="https://www.w3schools.com/cpp/default.asp">
+                        <p class="a4">learn C++</p>
+                    </a>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="e1" align="center">
+                    <h1 class="a2" align="center">PHP</h1>
+                    <p class="a3">A web server programming language</p>
+                    <a href="https://www.w3schools.com/php/default.asp">
+                        <p class="a4">learn PHP</p>
+                    </a>
+                </td>
+                <td class="f1" align="center">
+                    <h1 class="a2" align="center">W3.CSS</h1>
+                    <p class="a3">A CSS framework for faster and better responsive web pages</p>
+                    <a href="https://www.w3schools.com/w3css/default.asp">
+                        <p class="a4">learn W3.CSS </p>
+                    </a>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="g1" align="center">
+                    <h1 class="a2" align="center">BootStrap</h1>
+                    <p class="a3">A CSS framework for designing better web pages</p>
+                    <a href="https://www.w3schools.com/bootstrap/default.asp">
+                        <p class="a4">learn BootStrap</p>
+                    </a>
+                </td>
+                <td class="h1" align="center">
+                    <h1 class="a2" align="center">Machine learning</h1>
+                    <!-- <p class="a3">A web server programming language</p> -->
+                    <a href="https://www.w3schools.com/python/python_ml_getting_started.asp">
+                        <p class="a4">learn Machine learning</p>
+                    </a>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="container7">
+        <p class="a5">kickstart your carrer</p>
+        <p class="a5">Get certified by comleting the <br>course</p>
+        <a href="https://courses.w3schools.com/">
+            <p class="a6" align="center">Get STARTED</p>
+        </a>
+        <br>
+
+    </div>
+    <div class="container8">
+        <footer>
+            <div>
+                <ul type="none" class="ab4">
+                    <li class="ab3"><b>Courses</b></li>
+                    <li class="ab3"><b>Quizes</b></li>
+                    <li class="ab3"><b>Exercises</b></li>
+                    <li class="ab3"><b>Spaces</b></li>
+
+                </ul>
+            </div>
+            <p style="color:white">
+                W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve
+                reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid
+                errors, but we cannot warrant full correctness of all content. While using this site, you agree to have
+                read and accepted our terms of use, cookie and privacy policy.
+
+            </p>
+            <p align="center" style="color:white"> Copyright &copy; 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+            <a href="payment.html">
+                <p class="a7" align="center">EDUBUZZ SHOPS</p>
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>

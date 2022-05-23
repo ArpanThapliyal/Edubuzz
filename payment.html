@@ -1,0 +1,86 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        function validate() {
+        if (document.myform.myname.value.length < 10) {
+        alert("Please enter your full name.");
+        return false;
+        }
+        if (document.myform.myaddress.value.length < 16) {
+        alert("Please enter your correct card number.");
+        return false;
+        }
+        if (document.myform.myphone.value.length < 3) {
+        alert("Please enter your phone number.");
+        return false;
+        }
+        return true;
+        }
+        </script>
+   <style>
+       .ta{
+        background-color: rgba(0, 0, 0, 0.5);
+            margin-top: 100px;
+            border-radius: 20px;
+            border: 2px solid #ccc;
+
+       }
+       body {
+            background-image: url('23.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        td{
+            color:white;
+        }
+        .sub{
+           width:200px;
+           background-color: darkgoldenrod;
+           font-size: 25px;
+           border-radius: 20px;
+color:black;
+font-weight: 600;
+       }
+   </style>
+</head>
+<body>
+    <form name="myform" method="post" action="mailto:realtushar001@gmail.com" onSubmit="return validate()" enctype="text/plain">
+    <table cellspacing="10px" cellpadding="10px" align="center" class="ta">
+        <tr>
+            <td colspan="2" align="center"><h1>PAYMENT GATEWAY</h1></td>
+        </tr>
+        <tr>
+            <td><label>Card Holder:</label></td>
+            <td><input type="text" name="myname"></td>
+        </tr>
+        <tr>
+            <td>Card Number:</td>
+            <td><input type="text" name="myaddress"></td>
+        </tr>
+        <tr>
+            <td>cvv:</td>
+            <td><input type="text" name="myphone"></td>
+        </tr>
+        <tr>
+            <td>Expiry Date:</td>
+            <td><input type="date" name="mydate"></td>
+        </tr>
+        <tr>
+            <td>Enter Amount:</td>
+            <td><input type="text" name="myamount"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit" class="sub">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
